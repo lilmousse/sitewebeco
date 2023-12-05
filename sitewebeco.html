@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoSpark Electronics</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            font-size: 16px;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+
+        header {
+            background: linear-gradient(to right, #3498db, #2ecc71, #ffffff);
+            color: #fff;
+            padding: 1em;
+            text-align: center;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background: linear-gradient(to right, #2ecc71, #3498db);
+            padding: 0.5em;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 0.5em 1em;
+            margin: 0 0.25em;
+            cursor: pointer;
+        }
+
+        nav a:hover {
+            background-color: #555;
+        }
+
+        section {
+            display: none;
+            padding: 1em;
+            max-width: 800px;
+            margin: 0 auto;
+            text-align: justify;
+            background: rgba(255, 255, 255, 0.8);
+            border-radius: 10px;
+            margin-top: 20px;
+            font-size: 16px;
+            font-family: Arial, sans-serif;
+        }
+
+        section img {
+            width: 100%;
+            height: auto;
+            margin-bottom: 1em;
+        }
+
+        footer {
+            background: linear-gradient(to right, #3498db, #2ecc71, #ffffff);
+            color: #fff;
+            text-align: center;
+            padding: 1em;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        h2,
+        h3,
+        p,
+        ul,
+        li {
+            margin: 0 0 1em 0;
+            text-align: justify;
+        }
+
+        video {
+            width: 100%;
+            height: 100vh;
+            position: fixed;
+            top: 0;
+            left: 0;
+            object-fit: cover;
+            z-index: -1;
+        }
+
+        /* Nouvelles recommandations */
+        #noel {
+            text-align: justify;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Centrage du texte dans le pied de page */
+        footer center {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <video autoplay muted loop>
+        <source src="C:\\Users\\user\\Downloads\\E.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+    <header>
+        <h1>EcoSpark Electronics</h1>
+    </header>
+
+    <nav>
+        <a onclick="showTab('accueil')">Accueil</a>
+        <a onclick="showTab('produits')">Produits</a>
+        <a onclick="showTab('contact')">Contact</a>
+        <a onclick="showTab('a-propos')">À propos de nous</a>
+        <a onclick="showTab('actualites')">Actualités</a>
+        <a onclick="showTab('noel')">Noël</a>
+    </nav>
+
+    <section id="accueil">
+        <h2>Bienvenue chez EcoSpark Electronics</h2>
+        <p>Là où l'innovation prend vie et la technologie devient une expérience. Plongez dans un monde de créativité électronique, où chaque produit est une fusion exquise de design avant-gardiste et de performance de pointe.</p>
+        <h3>Découvrez nos dernières créations :</h3>
+        <h3>Smartphones qui Inspirent :</h3>
+        <p>Explorez notre gamme de smartphones conçus pour transcender les attentes. De l'élégance du design à la puissance brute, chaque détail est pensé pour vous offrir une expérience exceptionnelle. Soyez prêt à redéfinir votre relation avec la technologie.</p>
+        <h3>Tablettes Redéfinissant la Portabilité :</h3>
+        <p>Voyagez léger, mais avec une puissance considérable. Nos tablettes offrent une portabilité sans compromis et une performance qui stimulera votre créativité où que vous alliez. Du travail aux loisirs, laissez-vous emporter par la magie tactile de l'innovation.</p>
+        <h3>Ordinateurs Révolutionnaires :</h3>
+        <p>Ouvrez une porte sur l'infini des possibilités avec nos ordinateurs révolutionnaires. Que ce soit pour la productivité professionnelle ou le divertissement à domicile, chaque machine est conçue pour exceller. Découvrez une nouvelle ère de puissance informatique.</p>
+        <p>Chez EcoSpark Electronics, notre engagement va au-delà de la fabrication de produits électroniques. Nous créons des expériences qui inspirent, des technologies qui transforment, et des moments qui restent gravés. Explorez notre univers, éveillez votre curiosité, et rejoignez-nous dans le futur passionnant de l'électronique.</p>
+        <p>Prêt à Commencer Votre Voyage Technologique ? Explorez Notre Collection.</p>
+        <p>Bien plus qu'une entreprise, EcoSpark Electronics est une invitation vers le futur.</p>
+    </section>
+
+    <section id="produits" style="background: none;">
+        <video autoplay muted loop>
+            <source src="C:\Users\user\Downloads\Smartphone ÉcoLuxe X1  Description  Le smartphone ÉcoLuxe X1 allie design élégant, performances puissantes et durabilité exceptionnelle. Doté d'un écran haute résolution et d'une caméra de pointe, (3).mp4">
+            Your browser does not support the video tag.
+        </video>
+    </section>
+
+    <section id="contact">
+        <h3>Adresse :</h3>
+        <p>EcoSpark Electronics, 123 Rue de la Technologie, 75001 Paris, France.</p>
+        <h3>Support client :</h3>
+        <p>Besoin d'aide ? Contactez notre équipe de support au <strong>+33623577605</strong> ou par email à l'adresse : <strong>ecospark@gmail.com</strong></p>
+        </section>
+
+    <section id="a-propos">
+        <img src="C:\Users\user\Downloads\Bleu marron Épuré Mission vision valeurs entreprise Publication Instagram (1).png">
+    </section>
+
+    <section id="actualites">
+        <h2>Actualités</h2>
+        <h3>Titre : "EcoSpark Electronics Révolutionne l'Industrie avec une Technologie de Charge Ultrarapide"</h3>
+        <p>Paris, 2022</p>
+        <p>EcoSpark Electronics, pionnier de l'innovation électronique, annonce aujourd'hui une percée majeure dans la technologie de charge. La société dévoile une nouvelle génération de chargeurs révolutionnaires capables de recharger les batteries de smartphones, tablettes et ordinateurs à une vitesse jamais atteinte auparavant.</p>
+        <p>Cette technologie de charge ultrarapide promet de transformer radicalement la manière dont nous utilisons et dépendons de nos appareils électroniques au quotidien. En réduisant considérablement les temps de charge, EcoSpark vise à offrir une expérience utilisateur encore plus fluide et ininterrompue.</p>
+        <h3>Points forts de cette innovation :</h3>
+        <ul>
+            <li>Charge Instantanée : Les appareils EcoSpark pourront désormais atteindre une charge significative en quelques minutes seulement, réduisant ainsi les temps d'attente et améliorant l'efficacité.</li>
+            <li>Durée de Vie de la Batterie Améliorée : La technologie de charge a été conçue pour optimiser la durée de vie des batteries, minimisant l'impact sur leur performance au fil du temps.</li>
+            <li>Écologique : En encourageant des charges rapides et efficaces, EcoSpark Electronics s'engage également à réduire l'empreinte environnementale en minimisant la consommation d'énergie.</li>
+        </ul>
+        <p>Déclaration du PDG d'EcoSpark Electronics :</p>
+        <blockquote>
+            <p>"Cette avancée marque une nouvelle ère dans l'industrie électronique. Nous avons repoussé les limites de la technologie de charge pour offrir à nos clients une expérience révolutionnaire. Chez EcoSpark, nous ne nous contentons pas de suivre les tendances, nous les créons."</p>
+        </blockquote>
+        <p>Les nouveaux chargeurs seront inclus avec les prochains lancements de smartphones et tablettes EcoSpark. Restez à l'écoute pour plus de détails sur cette innovation qui promet de redéfinir la norme de la charge électronique.</p>
+        </section>
+    <section id="noel">
+        <img src="C:\Users\user\Downloads\Menu Repas Noël Doré et Blanc Classique Élégant (1).jpg" alt="Menu Repas Noël">
+    </section>
+
+    <footer>
+        <center>© 2023 EcoSpark Electronics. Tous droits réservés.</center>
+    </footer>
+
+    <script>
+        function showTab(tabId) {
+            var tabs = ['accueil', 'produits', 'contact', 'a-propos', 'actualites', 'noel'];
+
+            tabs.forEach(function (id) {
+                var tab = document.getElementById(id);
+                if (tab) {
+                    tab.style.display = 'none';
+                }
+            });
+
+            var selectedTab = document.getElementById(tabId);
+            if (selectedTab) {
+                selectedTab.style.display = 'block';
+            }
+        }
+    </script>
+</body>
+
+</html>
